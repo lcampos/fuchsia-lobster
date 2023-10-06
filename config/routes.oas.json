@@ -11,29 +11,6 @@
       },
       "get": {
         "summary": "New Route",
-        "description": "Lorem",
-        "x-zuplo-route": {
-          "corsPolicy": "none",
-          "handler": {
-            "export": "urlForwardHandler",
-            "module": "$import(@zuplo/runtime)",
-            "options": {
-              "baseUrl": "https://echo.zuplo.io"
-            }
-          },
-          "policies": {
-            "inbound": []
-          }
-        },
-        "operationId": "b2873c57-175a-4426-abde-9b3944547a9a"
-      }
-    },
-    "/path-0": {
-      "x-zuplo-path": {
-        "pathMode": "open-api"
-      },
-      "get": {
-        "summary": "New Route",
         "description": "Lorem .",
         "x-zuplo-route": {
           "corsPolicy": "none",
