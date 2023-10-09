@@ -25,7 +25,7 @@
             "inbound": []
           }
         },
-        "operationId": "a705eda0-412c-4725-a969-685035d8ae8b"
+        "operationId": "b2873c57-175a-4426-abde-9b3944547a9a"
       }
     },
     "/path-0": {
@@ -49,6 +49,52 @@
           }
         },
         "operationId": "b2873c57-175a-4426-abde-9b3944547a9a"
+      }
+    },
+    "/path-0": {
+      "x-zuplo-path": {
+        "pathMode": "open-api"
+      },
+      "get": {
+        "summary": "New Route",
+        "description": "Lorem ipsum dolor sit amet, **consectetur adipiscing** elit, sed do `eiusmod tempor` incididunt ut labore et dolore magna aliqua.",
+        "x-zuplo-route": {
+          "corsPolicy": "none",
+          "handler": {
+            "export": "urlForwardHandler",
+            "module": "$import(@zuplo/runtime)",
+            "options": {
+              "baseUrl": "https://echo.zuplo.io"
+            }
+          },
+          "policies": {
+            "inbound": []
+          }
+        },
+        "operationId": "b2873c57-175a-4426-abde-9b3944547a9a"
+      }
+    },
+    "/path-1": {
+      "x-zuplo-path": {
+        "pathMode": "open-api"
+      },
+      "get": {
+        "summary": "New Route",
+        "description": "Lorem ipsum dolor sit amet, **consectetur adipiscing** elit, sed do `eiusmod tempor` incididunt ut labore et dolore magna aliqua.",
+        "x-zuplo-route": {
+          "corsPolicy": "none",
+          "handler": {
+            "export": "urlForwardHandler",
+            "module": "$import(@zuplo/runtime)",
+            "options": {
+              "baseUrl": "https://echo.zuplo.io"
+            }
+          },
+          "policies": {
+            "inbound": []
+          }
+        },
+        "operationId": "1cdc1c30-4cbd-4534-b58b-c0c35fa60fa8"
       }
     }
   }
